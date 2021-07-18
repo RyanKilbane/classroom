@@ -1,0 +1,25 @@
+{
+    "classes": [
+        {
+            "class": "english1",
+            "start": "09:00:00",
+            "end": "10:00:00"
+        },
+        {
+            "class": "modern quantum field theory",
+            "start": "10:00:00",
+            "end": "12:00:00"
+        },
+        {
+            "class": "english2",
+            "start": "09:00:00",
+            "end": "11:00:00"
+        },
+        {
+            "class": "Mathematics for Physics",
+            "start": "10:00:00",
+            "end": "11:00:00"
+        }
+    ],
+    "classrooms": [1, 2]
+}
