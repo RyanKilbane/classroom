@@ -8,9 +8,8 @@ class TestReader extends TestCase{
     val resources = pwd/"src"/"test"/"scala"/"resources"
 
     def testReaderFactoryJson{
-        val json_file = resources/"classroom.json"
+        val json_file = resources/"classrooms.json"
         val x = new ReaderFactory(json_file).makeReader
-        println(x)
         x match{
             case p: JsonReader => assert(true)
             case _ => assert(false)
@@ -18,7 +17,7 @@ class TestReader extends TestCase{
     }
 
     def testJsonReader{
-        val json_file = resources/"classroom.json"
+        val json_file = resources/"classrooms.json"
         val x = new ReaderFactory(json_file).makeReader
     }
 }
